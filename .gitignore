@@ -1,0 +1,25 @@
+# Terraform Core
+.terraform/
+
+# State files (NEVER commit)
+*.tfstate
+*.tfstate.*
+terraform.tfstate.backup
+
+# Lock file (kept locally, optional in repo)
+.terraform.lock.hcl
+
+# Crash logs files
+crash.log
+crash.*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE Files
+.vscode/
+.idea/
+
+# Logs
+*.log
