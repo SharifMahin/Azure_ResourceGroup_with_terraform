@@ -10,5 +10,10 @@ terraform {
 }
 
 provider "azurerm" {
+  # not needed as az_cli login
+  # subscription_id = ""
+  # tenant_id       = ""
+  # client_id       = ""
+  # client_secret   = ""
   features {}
 }
